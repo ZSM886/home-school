@@ -1,0 +1,51 @@
+/* 页面样式 */
+body{
+  background: lightcoral;
+}
+header{}
+
+section{}
+
+
+
+
+.goodsThumb{
+  max-width: 350px;
+}
+.goodsName{
+  display:inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(254, 67, 101)
+}
+.goodsName:hover{
+  text-decoration: none;
+  color: rgb(252, 157, 154);
+}
+.goodsPrice{
+  font-size: 16px;
+  color: red;
+}
+.goodsDesc{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+}
+.goodsDesc span , .goodsPrice span{
+  color: rgb(249, 205, 173);
+  font-size: 16px;
+}
+.putIn i{
+  margin-left: 5px;
+}
+.collect i{
+  margin-left: 5px;
+}
+
+
+
+
+footer{}

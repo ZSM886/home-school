@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/cart.css" />
+</head>
+<body>
+  <header></header>
+
+
+  <section>
+    <h1>我的购物车</h1>
+    <div class="container" id="Box">
+    <div class="row sHead">
+      <div class="col-md-2 col-sm-2 col-xs-1">
+        <input type="checkbox" id="selectAll">
+        <i class="words selectAll">全选</i>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-2 lost">
+        <div class="words shop-list-mas">商品信息</div>
+      </div>
+      <div class="col-md-1 col-sm-1 hidden-xs">
+        <div class="words shop-list-one">单价(元)</div>      
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-3">
+        <div class="words shop-list-s">数量</div>  
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-3">
+        <p class="words">金额(元)</p>
+      </div>
+      <div class="col-md-1 col-sm-1 col-xs-2">
+        <p class="words">操作</p>
+      </div>
+    </div>
+
+
+
+    <div id="Shop"></div>
+
+
+
+    <div class="row sFoot">
+      <div class="col-md-2 col-sm-2 hidden-xs">
+        <p class="words" id="Delete">选择删除</p>
+      </div>
+      <div class="col-md-3 col-sm-3 col-md-offset-2 col-sm-offset-2 col-xs-5">
+        <p class="words">已选<em id="Amount">0</em>件商品</p>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-5">
+        <p class="words">总价(不含运费)<span id="Money">￥0</span></p>
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-2">
+        <a class="words oper" id="checkout">下单</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer></footer>
+
+  <script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
