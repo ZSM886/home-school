@@ -1,0 +1,362 @@
+body{
+    background: rgb(240,240,240);
+}
+
+section{
+    font-size: 16px;
+}
+.font-size{
+    font-size:15px;
+}
+.sm_font{
+    font-size:12px;
+}
+.widen{
+    width: 200px;
+}
+.left_title{
+    line-height: 50px;
+    font-size:12px;
+}
+.col_Red>a{
+    color:red !important;
+}
+.col_Red>span{
+    color:rgb(0,0,0);
+    line-height: 50px;
+}
+.col_Red>span>span{
+    margin:0 10px;
+    color:gray;
+}
+.hover_Red>a:hover{
+    color:red !important;
+}
+#close{
+    width: 80px;
+    color:black;
+    background: rgba(0,0,0,0);
+    line-height: 20px;
+    border: none;
+    outline:none;
+}
+.container>h1{
+    margin: 20px 0;
+    color:rgb(69,69,69);
+
+}
+.search{
+    width: 100%;
+    background: white;
+}
+.type_floLeft{
+    width: 100%;
+    float: left;
+}
+.leftImg>img{
+    width: 310px;
+    height: 110px;
+    float: left;
+}
+.rightImg>img{
+    width: 310px;
+    height: 110px;
+    float: right;
+}
+.search_goods{
+    float: left;
+    width: 490px;
+    height: 42px;
+    margin-top: 25px;
+
+}
+#search{
+    width: 87%;
+    height: 38px;
+    border: 2px solid rgb(251,52,52);
+    float: left;
+    outline:none;/*去掉聚焦后的边框*/
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#maginfier{
+    margin-left: -4px;
+    margin-bottom: 0px;
+    display: block;
+    float: left;
+    height: 38px;
+    width: 50px;
+    background: rgb(251,52,52);
+    font-size: 22px;
+    color: white;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.sHead{
+    background: white;
+}
+.words{
+    font-size: 15px;
+    color:rgb(69,69,69);
+    text-align: center;
+    line-height: 36px;
+}
+#Delete{
+    color:white;
+    width: 165px;
+    height: 36px;
+    border: none;
+    background: gray;
+    transition:1.5s;
+}
+#Delete:hover{
+    background: black;
+    color:gray;
+    transition:1.5s;
+}
+.oper{
+    display: block;
+    height: 100%;
+    line-height: 36px;
+    background: gray;
+    color: white;
+    text-align: center;
+    transition:1.5s;
+}
+.oper:hover{
+    text-decoration: none;
+    background: black;
+    color:gray;
+}
+.sFoot{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background: white;
+}
+
+/* ajax获取的内容样式 */
+.check{
+    margin-top: 50px !important;
+}
+.goods{
+    background: white;
+}
+.goodsPic{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    float: left;
+}
+.picName{
+    font-size: 13px;
+    height: 42px;
+    float: right;
+    margin-top: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.goods-one{
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.goods-lists{
+    float: left;
+    width: 70px;
+    height: 80px;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.left-button{
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    border: 1px solid #dddddd;
+    cursor:pointer;
+    float: left;
+}
+.right-button{
+    float: left;
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    border: 1px solid #dddddd;
+    cursor:pointer;
+}
+.center-text{
+    width: 25px;
+    height: 22px;
+    float: left;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.goods-sum{
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+.cut{
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 30px;
+    margin-top: 45px;
+    font-size: 14px;
+}
+.icon_img{
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.select{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.select>p{
+    color: rgb(255, 108, 0);
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    margin-left: 60px;
+    padding-top:10px;
+    /* background: rgb(243, 243, 243); */
+}
+.select>p>em{
+    display: block;
+    font-size: 12px;
+    margin-left: 70px;
+    color:rgb(170,170,170);
+}
+.hide{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+
+/* 遮罩层样式 */
+.shade{
+    width: 100%;
+    height: 100%;
+    background:rgba(69,39,39,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.choose{
+    width: 30%;
+    height: 25%;
+    background: #fff;
+    position: absolute;
+    top:25%;
+    left: 35%;
+}
+.select>span{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 10px;
+    background: rgb(243, 243, 243);
+}
+.select>span>em{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+.choose-yes{
+    margin: 0 auto;
+    width:44px;
+    height: 25px;
+    background: rgb(242,242,242);
+    border: 1px solid rgb(225,225,225);
+    border-radius: 3px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.choose-no{
+    color:white;
+    margin: 0 auto;
+    float: left;
+    width:92px;
+    border: none;
+    height: 25px;
+    margin-top: 10px;
+    background: rgb(231, 70, 73);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+
+.footer{
+    background:rgb(68,68,68);
+    width: 100%;
+}
+.service{
+    margin: 0 30px;
+    padding: 30px 0;
+}
+.service>ul{
+    float: left;
+    width: 20%;
+}
+.service>ul>li{
+    padding-top: 5px;
+}
+.service>ul>li>a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.img{
+    margin: 10px 0px 5px -25px;
+    width: 119px;
+    height: 162px;
+}
+.about_us{
+    font-size: 16px !important;
+}
+.etao-link{
+    float: left;
+    text-align: center;
+}
+.etao-link>a{
+    display: inline-block;
+    padding: 0 8px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.copyright>p{
+    font-size: 12px;
+    color: #999;
+}
+.Value-added{
+    margin-top: -7px;
+    padding-bottom: 10px;
+}

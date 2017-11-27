@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+/*nav样式开始*/
+.font-size{
+    font-size:15px;
+}
+.sm_font{
+    font-size:12px;
+}
+.widen{
+    width: 200px;
+}
+.left_title{
+    line-height: 50px;
+    font-size:12px;
+}
+.col_Red>a{
+    color:red !important;
+}
+.col_Red>span{
+    color:rgb(0,0,0);
+    line-height: 50px;
+}
+.col_Red>span>span{
+    margin:0 10px;
+    color:gray;
+}
+.hover_Red>a:hover{
+    color:red !important;
+}
+#close{
+    width: 80px;
+    color:black;
+    background: rgba(0,0,0,0);
+    line-height: 20px;
+    border: none;
+    outline:none;
+}
+
+/*nav样式结束*/
+
+
+
+/*scarch样式开始*/
+.search{
+    width: 100%;
+    background: white;
+}
+.type_floLeft{
+    width: 100%;
+    float: left;
+}
+.leftImg>img{
+    width: 310px;
+    height: 110px;
+    float: left;
+}
+.rightImg>img{
+    width: 310px;
+    height: 110px;
+    float: right;
+}
+.search_goods{
+    float: left;
+    width: 490px;
+    height: 42px;
+    margin-top: 25px;
+
+}
+#search{
+    width: 87%;
+    height: 38px;
+    border: 2px solid rgb(251,52,52);
+    float: left;
+    outline:none;/*去掉聚焦后的边框*/
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#maginfier{
+    margin-left: -4px;
+    margin-bottom: 0px;
+    display: block;
+    float: left;
+    height: 38px;
+    width: 50px;
+    background: rgb(251,52,52);
+    font-size: 22px;
+    color: white;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+/*scarch样式结束*/
+
+
+
+/*section样式开始*/
+section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(246,246,246);
+}
+
+/*banner样式开始*/
+.banner{
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+#classIfton{
+    width: 100%;
+    height: 30px;
+    margin-left: 20px;
+}
+#classIfton>li{
+    line-height: 60px;
+    float: left;
+    margin-right: 6%;
+}
+#classIfton>li>a{
+    text-decoration: none;
+    color:rgb(51,51,51);
+}
+#classIfton>li>a:hover{
+    color: rgb(251,52,52) !important;
+}
+/*banner样式结束*/
+
+
+/*goods样式开始*/
+.goodList{
+    width: 100%;
+    height: auto;
+    background-color: plum;
+}
+.goodList>li{
+    display: block;
+    width: 200px;
+    height: 350px;
+    margin: 50px 0px;
+    background:rgb(200,200,200);
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.goodList>li>img{
+    width: 200px;
+}
+.goodList>li>p{
+    width: 170px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.goodList>li>p>a{
+    color:rgb(28, 72, 28);;
+    text-decoration: none;
+}
+.goods_car{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(90, 35, 35);
+    border: 1px solid rgb(109, 109, 109);
+    transition: 0.7s;
+    outline:none;
+}
+.goods_car>span{
+    font-size: 13px;
+    color:white;
+}
+.icon_left{
+    margin-right: 10px !important;
+    color: white;
+}
+.goods_car:hover{
+    width: 81%;
+    height: 32px;
+    background-color: rgb(90, 35, 35);
+    border: 1px solid rgb(109, 109, 109);
+    transition: 0.7s;
+}
+.price{
+    color:black;
+}
+.price>span{
+    color:rgb(90, 35, 35);
+    font-weight: bold;
+}
+/*goods样式结束*/
+
+
+
+/*section样式结束*/
+
+
+
+/*footer样式开始*/
+.footer{
+    background:rgb(68,68,68);
+    width: 100%;
+}
+.service{
+    margin: 0 30px;
+    padding: 30px 0;
+}
+.service>ul{
+    float: left;
+    width: 20%;
+}
+.service>ul>li{
+    padding-top: 5px;
+}
+.service>ul>li>a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.img{
+    margin: 10px 0px 5px -25px;
+    width: 119px;
+    height: 162px;
+}
+.about_us{
+    font-size: 16px !important;
+}
+.etao-link{
+    float: left;
+    text-align: center;
+}
+.etao-link>a{
+    display: inline-block;
+    padding: 0 8px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.copyright>p{
+    font-size: 12px;
+    color: #999;
+}
+.Value-added{
+    margin-top: -7px;
+    padding-bottom: 10px;
+}
+/*footer样式结束*/

@@ -1,0 +1,238 @@
+/* 页面样式 */
+body{
+  background: rgb(240,240,240);
+}
+header{
+  width: 100%;
+  height: auto;
+  background: white;
+}
+ul li{
+  list-style: none;
+}
+
+
+
+.search{
+  padding-top: 5px;
+  width: 490px;
+  height: 50px;
+  margin: 0 auto;
+}
+#search{
+  width: 87%;
+  height: 38px;
+  border: 2px solid rgb(251,52,52);
+  float: left;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+#btn1{
+  margin-left: -4px;
+  margin-bottom: 0px;
+  display: block;
+  float: left;
+  height: 38px;
+  width: 50px;
+  background: rgb(251,52,52);
+  font-size: 22px;
+  color: white;
+  line-height: 38px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.left_title{
+  line-height: 50px;
+  font-size:12px;
+}
+.col_Red>a{
+  color:red !important;
+}
+.col_Red>span{
+  color:rgb(0,0,0);
+  line-height: 50px;
+}
+.col_Red>span>span{
+  margin:0 10px;
+  color:gray;
+}
+.hover_Red>a:hover{
+  color:red !important;
+}
+section{
+  width: 100%;
+  height: auto;
+  background: rgb(240,240,240);
+}
+.thumbnail{
+  background: rgb(216,216,216) !important;
+}
+#cart{
+  margin-left: 50px;
+  background-color: rgb(90, 35, 35) !important;
+  border: 1px solid rgb(109, 109, 109) !important;
+}
+.collect{
+  margin-left: 10px;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.goodsThumb{
+  width: 350px;
+}
+.goodsName{
+  display:inline-block;
+  width: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(28, 72, 28);
+  transition:0.2s;
+}
+.goodsName:hover{
+  text-decoration: none;
+  color: rgb(191, 51, 48);
+  transition:0.2s;
+  
+}
+.goodsPrice{
+  font-size: 16px;
+  color: red;
+}
+.goodsDesc{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+}
+.goodsDesc span , .goodsPrice span{
+  color: rgb(166, 45, 0);
+  font-size: 16px;
+}
+.putIn i{
+  margin-left: 5px;
+}
+.collect i{
+  margin-left: 5px;
+}
+#ButtonPrev,#ButtonNext{
+  background-color: rgb(90, 35, 35) ;
+  color:white;
+  border: 1px solid rgb(109, 109, 109) ;
+  margin-bottom: 20px;
+}
+
+.footer{
+  background:rgb(68,68,68);
+  width: 100%;
+}
+.service{
+  margin: 0 30px;
+  padding: 30px 0;
+}
+.service>ul{
+  float: left;
+  width: 20%;
+}
+.service>ul>li{
+  padding-top: 5px;
+}
+.service>ul>li>a{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+.img{
+  margin: 10px 0px 5px -25px;
+  width: 119px;
+  height: 162px;
+}
+.about_us{
+  font-size: 16px !important;
+}
+.etao-link{
+  float: left;
+  text-align: center;
+}
+.etao-link>a{
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+}
+.copyright{
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.copyright>p{
+  font-size: 12px;
+  color: #999;
+}
+.Value-added{
+  margin-top: -7px;
+  padding-bottom: 10px;
+}
+
+
+/* 返回顶部 */
+.top{
+  display: none;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 70%;
+  right: 3%;
+  background:lightcoral; 
+}
+.top span{
+  font-size:30px;
+  height: 30px;
+  margin: 10px 0;
+  margin-right: 10px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+/* 购物车 */
+.shoppingCart{
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 50%;
+  right: 3%;
+  background:lightcoral;
+}
+.shoppingCart span{
+  font-size:30px;
+  height: 30px;
+  margin: 10px;
+  color: #fff;
+}
+
+
+.top,.shoppingCart{
+  text-decoration: none;
+  color: purple;
+}
+.shoppingCart:hover{
+  text-decoration: none;
+  color: #222;
+}
+.top:hover{
+  text-decoration: none;
+  color: #222;
+}
+.top i, .shoppingCart i{
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  font-style:normal;
+  text-align: center;
+}

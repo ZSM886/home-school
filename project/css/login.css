@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 960px;
+    height: auto;
+    background: gray;
+    margin: 0 auto;
+}
+.container{
+    width: 960px;
+    height: 475px;
+    margin-top: 15%;
+    background: url(../img/B_g.jpg) no-repeat;
+    position: relative;
+}
+.user{
+    width: 315px;
+    height: 45px;
+    border: none;
+    outline:none;
+    padding-left: 10px;
+    margin: 180px 0 10px 270px;
+    background: url(../img/User.png) no-repeat;
+}
+.password{
+    width: 315px;
+    height: 45px;
+    border: none;
+    outline:none;
+    padding-left: 10px;
+    margin: 0 0 0 270px;
+    background: url(../img/password.png) no-repeat;
+}
+#login{
+    position: absolute;
+    top:200px;
+    left: 550px;
+    width: 53px;
+    height: 50px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    cursor: pointer;
+    border-left-style: none;
+    outline: none;
+     background: url(../img/login.png) no-repeat;
+}
+.img{
+    position: absolute;
+    top:30px;
+    left: 280px;
+    width: 310px;
+    height: 110px;
+    background: url(../img/TB1yRiUQVXXXXaAXFXXXXXXXXXX-620-221.png);
+    background-size: 310px 110px; 
+}
+.img>a{
+    color:rgba(0,0,0,0);
+    font-weight:bolder;
+    font-size: 24px;
+    line-height: 110px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.oImg{
+    width: 119px;
+    height: 162px;
+    margin-left: 100px;
+    display: none;
+}
+.block:hover .oImg{
+    display: block;
+}
+h6{
+    position: absolute;
+    text-align: center;
+    top:350px;
+    left: 320px;
+    font-size: 16px;
+    color: black;
+}
+h6>a{
+    margin-left: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(240,240,240,0.5);
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    border-radius: 10px;
+}

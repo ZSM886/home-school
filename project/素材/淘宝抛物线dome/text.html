@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    p{
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 200px;
+      left: 300px;
+      background: orange;
+    }
+    div{
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top:500px;
+      right: 20px;
+      background: lawngreen;
+    }
+  </style>
+</head>
+<body>
+  <p class="element" id="element"></p>
+  <div class="target" id="target"></div>
+
+  <script src="requestAnimationFrame.js"></script>
+  <script src="parabola.js"></script>
+  <script>
+    var element = document.getElementById("element"), 
+    target = document.getElementById("target");
+// 抛物线元素的的位置标记
+var parabola = funParabola(element, target).mark();
+// 抛物线运动的触发
+target.onclick = function() {
+    element.style.marginLeft = "0px";
+    element.style.marginTop = "0px";
+    parabola.init();
+};
+  </script>
+</body>
+</html>

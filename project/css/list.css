@@ -1,0 +1,228 @@
+body{
+    background: rgb(240,240,240);
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+.banner{
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: fixed;
+    top:0;
+}
+#classIfton{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+}
+#classIfton>li{
+    float: left;
+    line-height: 50px;
+    margin-right: 7%;
+}
+#classIfton>li:first-child{
+    margin-left: 40px;
+}
+#classIfton>li>a{
+    color:rgb(51,51,51);
+    text-decoration: none;
+    transition: 0.1s;
+}
+#classIfton>li>a:hover{
+    color:rgb(251,52,52);
+    transition: 0.1s;
+}
+.goodList{
+    width: 100%;
+    height: auto;
+}
+.goodList>li{
+    list-style-type: none;    
+    display: block;
+    width: 200px;
+    height: 350px;
+    margin: 50px 0px;
+    background: rgb(200,200,200);
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.goodList>li>img{
+    width: 200px;
+}
+.goodList>li>p{
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goodList>li>p{
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goodList>li>p>a{
+    color: rgb(28, 72, 28);
+    text-decoration: none;
+}
+.goodList>li>p{
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.price>span{
+    color: red;
+    font-weight: bold;
+}
+.icon_left {
+    margin-right: 10px !important;
+    color: white;
+}
+.goods_car{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(90, 35, 35);
+    border: 1px solid rgb(109, 109, 109);
+    transition: 0.7s;
+    outline:none;
+}
+.goods_car:hover{
+    width: 81%;
+    height: 32px;
+    background-color: rgb(90, 35, 35);
+    border: 1px solid rgb(109, 109, 109);
+    transition: 0.7s;    
+    outline:none;
+}
+.goods_car>span{
+    font-size: 13px;
+    color: white;
+}
+
+/*footer样式开始*/
+.footer{
+    background:rgb(68,68,68);
+    width: 100%;
+}
+.service{
+    margin: 0 30px;
+    padding: 30px 0;
+}
+.service>ul{
+    float: left;
+    width: 20%;
+}
+.service>ul>li{
+    padding-top: 5px;
+    list-style-type: none;
+}
+.service>ul>li>a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.img{
+    margin: 10px 0px 5px -25px;
+    width: 119px;
+    height: 162px;
+}
+.about_us{
+    font-size: 16px !important;
+}
+.etao-link{
+    float: left;
+    text-align: center;
+}
+.etao-link>a{
+    display: inline-block;
+    padding: 0 8px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.copyright>p{
+    font-size: 12px;
+    color: #999;
+}
+.Value-added{
+    margin-top: -7px;
+    padding-bottom: 10px;
+}
+
+
+/* 返回顶部 */
+.top{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 70%;
+    right: 3%;
+    background:lightcoral; 
+  }
+  .top span{
+    font-size:30px;
+    height: 30px;
+    margin: 10px 0;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #fff;
+  }
+  
+  /* 购物车 */
+  .shoppingCart{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    right: 3%;
+    background:lightcoral;
+  }
+  .shoppingCart span{
+    font-size:30px;
+    height: 30px;
+    margin: 10px;
+    color: #fff;
+  }
+  
+  
+  .top,.shoppingCart{
+    text-decoration: none;
+    color: purple;
+  }
+  .shoppingCart:hover{
+    text-decoration: none;
+    color: #222;
+  }
+  .top:hover{
+    text-decoration: none;
+    color: #222;
+  }
+  .top i, .shoppingCart i{
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-style:normal;
+    text-align: center;
+  }

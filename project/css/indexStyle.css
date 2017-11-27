@@ -1,0 +1,81 @@
+/* 去掉轮播图两边的黑边 */
+.carousel-control.left {
+  
+ background-image:none;
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right {
+ left: auto;
+ right: 0;
+ 
+ background-image:none;
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+body{
+  background:rgb(131,175,155);
+}
+
+#bP1 img, #bP2 img,#sP1 img, #sP2 img{
+  width: 100%;
+  height: 300px;
+}
+
+/* 返回顶部 */
+.top{
+  display: none;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 70%;
+  right: 3%;
+  background:lightcoral; 
+}
+.top span{
+  font-size:30px;
+  height: 30px;
+  margin: 10px 0;
+  margin-right: 10px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+/* 购物车 */
+.shoppingCart{
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 50%;
+  right: 3%;
+  background:lightcoral;
+}
+.shoppingCart span{
+  font-size:30px;
+  height: 30px;
+  margin: 10px;
+  color: #fff;
+}
+
+
+.top,.shoppingCart{
+  text-decoration: none;
+  color: purple;
+}
+.shoppingCart:hover{
+  text-decoration: none;
+  color: #222;
+}
+.top:hover{
+  text-decoration: none;
+  color: #222;
+}
+.top i, .shoppingCart i{
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  font-style:normal;
+  text-align: center;
+}
