@@ -40,7 +40,7 @@ $.ajax({
       </div>
       </div>
 `;
-$("#Shop").html($("#Shop").html()+html);
+  $("#Shop").html($("#Shop").html()+html);
 }
   
     windowWidth=window.innerWidth;
@@ -276,8 +276,9 @@ function updataCarAjax(obj,num){
     "number":num,
   },
   "success":function(response){
+    console.log("cart"+goods_id);
     localStorage.removeItem("cart"+goods_id);
-    alert("删除商品成功");
+    // alert("删除商品成功");
   }
 })
 }
